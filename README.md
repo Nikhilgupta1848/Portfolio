@@ -6,15 +6,21 @@ A visually stunning and interactive 3D portfolio website built using **Three.js*
 
 ## 📸 Preview
 
-You can add 3-4 images or GIFs of the project in this section:
+Demo Images:
 
 <p align="center">
-  <img src="assets/screenshot1.png" alt="3D Portfolio Screenshot 1" width="80%" />
+  <img src=   "![Screenshot 2025-05-21 033611](https://github.com/user-attachments/assets/8116591a-2fc1-47ea-9d1b-68fa6801f8bb)"
+width="80%" />
   <br/>
-  <img src="assets/screenshot2.png" alt="3D Portfolio Screenshot 2" width="80%" />
+  <img src= "![Screenshot 2025-05-21 033738](https://github.com/user-attachments/assets/45b1f732-172f-4828-9dc6-9bb2cd9d84a0)"
+ alt="3D Portfolio Screenshot 2" width="80%" />
   <br/>
-  <img src="assets/screenshot3.png" alt="3D Portfolio Screenshot 3" width="80%" />
+   <img src= "![image](https://github.com/user-attachments/assets/bbb7b4dc-2479-49b9-a44a-78e109bf7e9c)"
+ alt="Tech Stack" width="80%" />
+  <br/>
+  <img src="![Screenshot 2025-05-21 033812](https://github.com/user-attachments/assets/3687eb3d-2ec5-4e15-8256-d6dbef17eac2)" alt="Coonecct with me" width="80%" />
 </p>
+
 
 ---
 
@@ -58,8 +64,8 @@ Ensure the following are installed on your system:
 ### 📥 Cloning the Repository
 
 ```bash
-git clone https://github.com/adrianhajdin/3d-portfolio.git
-cd 3d-portfolio
+git clone https://github.com/Nikhilgupta1848/Portfolio.git
+cd Portfolio
 ```
 
 ---
@@ -121,7 +127,7 @@ Then open [http://localhost:5173](http://localhost:5173) in your browser to view
 
 ## 💬 Feedback
 
-Feel free to open an [issue](https://github.com/adrianhajdin/3d-portfolio/issues) or submit a pull request if you have ideas for improvements.
+Feel free to open an [issue](https://github.com/Nikhilgupta1848/Portfolio/issues) or submit a pull request if you have ideas for improvements.
 
 ---
 
