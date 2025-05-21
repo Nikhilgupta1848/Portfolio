@@ -1,5 +1,5 @@
 import AnimatedCounter from "../components/AnimatedCounter.jsx";
-import Button from "../components/button.jsx";
+import Button from "../components/Button.jsx";
 import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 import { words } from "../constants/index.js";
 
