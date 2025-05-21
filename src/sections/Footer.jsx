@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="flex flex-col justify-center md:items-start items-center">
-          <a href="https://drive.google.com/file/d/1dV-_E1-Teiw9dR2CS-_gT297jOIbq5c9/view?usp=sharing">Visit my Resume</a>
+          <a href="https://drive.google.com/file/d/1si7n4_IrWnEqHF7xrjC5dRInRC-GhPPT/view?usp=sharing">See my Resume</a>
         </div>
         <div className="socials">
           {socialImgs.map((socialImg) => (
