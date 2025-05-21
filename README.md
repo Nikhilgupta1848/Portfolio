@@ -1,12 +1,124 @@
-# React + Vite
+# 🚀 3D Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually stunning and interactive 3D portfolio website built using **Three.js**, **React Three Fiber**, and **GSAP**. This project is perfect for developers, designers, and freelancers looking to stand out with immersive visuals and smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+-Link
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+
+- **Three.js**
+- **React Three Fiber**
+- **Drei**
+- **GSAP**
+- **Tailwind CSS**
+- **Vite**
+- **React 19**
+
+---
+
+## 🔋 Features
+
+✅ Animated 3D models and reveal animations  
+✅ Realistic lighting and soft shadows  
+✅ Smooth scroll-based animations powered by GSAP  
+✅ Responsive UI using Tailwind CSS and Flex/Grid  
+✅ Delightful micro-interactions and hover effects  
+✅ Multi-section layout – About, Projects, Contact  
+✅ Optimized for mobile and tablet viewports  
+✅ Modular codebase for scalability and reusability
+
+---
+
+## 🤸 Quick Start
+
+### ✅ Prerequisites
+
+Ensure the following are installed on your system:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- npm (comes with Node.js)
+
+---
+
+### 📥 Cloning the Repository
+
+```bash
+git clone https://github.com/Nikhilgupta1848/Portfolio.git
+cd Portfolio
+```
+
+---
+
+### 📦 Installation
+
+Install project dependencies:
+
+```bash
+npm install
+```
+
+---
+
+### 🔐 Set Up Environment Variables
+
+Create a `.env` file in the root of your project and add the following:
+
+```env
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+> 🔑 Replace the placeholders with your actual EmailJS credentials.
+
+---
+
+### 🚀 Running the Project
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser to view the live project.
+
+---
+
+## 📂 Project Structure Highlights
+
+- `components/` – All React components, organized and reusable  
+- `canvas/` – 3D elements rendered with React Three Fiber  
+- `utils/` – Reusable utilities and helpers  
+- `styles/` – Tailwind CSS configuration and global styles  
+- `.env` – Environment variables for secure config
+
+---
+
+## 🧠 Learning Outcomes
+
+- Hands-on with 3D rendering in the browser  
+- Animations using GSAP with Three.js  
+- Creating interactive and accessible UI in React  
+- Clean architecture for scaling and reusability
+
+---
+
+## 💬 Feedback
+
+Feel free to open an [issue](https://github.com/Nikhilgupta1848/Portfolio/issues) or submit a pull request if you have ideas for improvements.
+
+---
+
+## 📄 License
+
+MIT License – [View License](LICENSE)
+
+---
