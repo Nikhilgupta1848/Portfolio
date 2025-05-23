@@ -6,7 +6,7 @@ A visually stunning and interactive 3D portfolio website built using **Three.js*
 
 ## 📸 Preview
 
--Link
+- **Link** - https://portfolio-tau-ruby-82.vercel.app/
 
 ---
 
