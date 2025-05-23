@@ -1,6 +1,13 @@
 # 🚀 3D Portfolio Website
 
 A visually stunning and interactive 3D portfolio website built using **Three.js**, **React Three Fiber**, and **GSAP**. This project is perfect for developers, designers, and freelancers looking to stand out with immersive visuals and smooth user experience.
+---
+
+## 📸 Preview
+
+- **Link** - https://portfolio-tau-ruby-82.vercel.app/
+
+
 
 ![Thumbnailforlinkedin](https://github.com/user-attachments/assets/aa55c718-c92e-4024-82c2-e3ee017051c1)
 
@@ -17,12 +24,8 @@ A visually stunning and interactive 3D portfolio website built using **Three.js*
 
 
 
+![Screenshot 2025-05-21 033812](https://github.com/user-attachments/assets/083b6498-43fa-4fa9-8a4f-5cbb39e79d3a)
 
----
-
-## 📸 Preview
-
-- **Link** - https://portfolio-tau-ruby-82.vercel.app/
 
 ---
 
