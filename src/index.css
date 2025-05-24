@@ -207,17 +207,17 @@ section {
   }
 
   .cta-button {
-    @apply px-4 py-4 rounded-lg bg-black-200 flex justify-center items-center relative cursor-pointer overflow-hidden;
+    @apply px-4 py-4 rounded-lg bg-black-200 flex justify-center items-center relative cursor-pointer overflow-hidden sm:px-2 sm:py-2;
 
     .bg-circle {
       @apply absolute -right-10 origin-center top-1/2 -translate-y-1/2 
-        w-[120%] h-[120%] group-hover:size-10 group-hover:right-10
+        w-[130%] h-[120%] group-hover:size-10 group-hover:right-10
         rounded-full bg-white-50 transition-all duration-500;
     }
 
     .text {
       @apply uppercase md:text-lg text-black transition-all duration-500
-        group-hover:text-white-50 group-hover:-translate-x-5 xl:translate-x-0 -translate-x-5;
+        group-hover:text-white-50 group-hover:-translate-x-5 xl:translate-x-0 -translate-x-8;
     }
 
     .arrow-wrapper {
@@ -225,7 +225,22 @@ section {
         -translate-y-1/2 flex justify-center items-center overflow-hidden;
 
       img {
-        @apply size-5 xl:-translate-y-32 translate-y-0 animate-bounce group-hover:translate-y-0 transition-all duration-500;
+        @apply size-5 animate-bounce transition-all duration-500;
+
+    /* Problem: Your previous translate-x-10 might have pushed it out of the 40x40px wrapper */
+    /* Solution: Use a smaller translateX value or consider a different approach if you need more shift. */
+    /* The image is 20px wide. The wrapper is 40px wide. */
+    /* Centered, there's 10px on each side. */
+
+    /* Default (mobile) positioning: */
+    /* If you want it a little to the right from center, try translate-x-2 or translate-x-3 */
+    @apply translate-x-3 translate-y-0; /* Example: 3px to the right from center */
+
+    /* XL screen specific positioning: */
+    @apply xl:-translate-y-32 xl:translate-x-0;
+
+    /* Hover state: */
+    @apply group-hover:translate-y-0 group-hover:translate-x-0;
       }
     }
   }

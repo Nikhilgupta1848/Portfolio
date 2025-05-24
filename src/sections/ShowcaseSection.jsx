@@ -89,7 +89,7 @@ const ShowcaseSection = () => {
 
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
-              <a href="https://github.com/Nikhilgupta1848/SVCE-Website-FYP"> <img src="/images/project3.png" alt="College Website" /></a> 
+              <a href="https://github.com/Nikhilgupta1848/SVCE-Website-FYP"> <img src="/images/project3.webp" alt="College Website" /></a> 
               </div>
               <h2>SVCE - College Website</h2>
             </div>

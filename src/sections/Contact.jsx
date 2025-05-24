@@ -63,7 +63,7 @@ const Contact = () => {
                 className="w-full flex flex-col gap-7"
               >
                 <div>
-                  <label htmlFor="name">Your name</label>
+                  <label htmlFor="name">Name</label>
                   <input
                     type="text"
                     id="name"
@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="email">Your Email</label>
+                  <label htmlFor="email">Email</label>
                   <input
                     type="email"
                     id="email"
@@ -89,7 +89,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="message">Your Message</label>
+                  <label htmlFor="message">Message</label>
                   <textarea
                     id="message"
                     name="message"
